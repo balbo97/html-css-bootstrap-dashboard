@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* TOP  */
+#top{
+    height: 50px;
+    width: 100%;
+    background-color: brown;
+}
+
+
+/* BOTTOM  */
+#bottom{
+    height: calc(100vh - 50px);
+    width: 100%;
+    display: flex;
+}
+
+.side-bar{
+    height: 100%;
+    width: 150px;
+    background-color: darkblue;
+}
+
+.main-bar{
+    height: 100%;
+    width: calc(100vw - 150px);
+    background-color: gold;
+    overflow-y: auto;
+}
+
+/* HEADER  */
+header{
+    background-color: blue;
+    height: 75px;
+}
+
+/* UTILITIES */
+
+.content-header{
+    height: 50px;
+    background-color: red;
+}
+
+.content{
+    height: 600px;
+    background-color: blanchedalmond;
+}
