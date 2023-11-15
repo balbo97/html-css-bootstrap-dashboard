@@ -8,7 +8,14 @@
 #top{
     height: 50px;
     width: 100%;
-    background-color: brown;
+}
+
+nav{
+    height: 100%;
+}
+
+[alt~="mobile-logo"]{
+    height: 50px;
 }
 
 
@@ -23,6 +30,9 @@
     height: 100%;
     width: 100px;
     background-color: darkblue;
+    background-image: url(/img/sidebar-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .main-bar{
@@ -34,12 +44,8 @@
 /* HEADER  */
 header{
     background-color: blue;
-    height: 75px;
 }
 
-[alt~="logo"]{
-    width: 100%;
-}
 
 /* MAIN  */
 td:first-child{
@@ -49,12 +55,8 @@ td:first-child{
 
 /* UTILITIES */
 
-.content-header{
-    height: 50px;
-    background-color: red;
-}
 
-
+/* MEDIA QUERIS  */
 @media screen and (max-width:768px){
     .side-bar{
         width: 40px;
