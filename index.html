@@ -30,11 +30,95 @@
                 <a href="#"><i class="text-secondary fa-solid fa-ellipsis-vertical fa-sm"></i></a>
             </div>
             <div class="icon ms-3">
-                <a href="#"><i class="text-secondary fa-solid fa-bell fa-sm text-warning"></i></a>
+                <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                    <i class="text-secondary fa-solid fa-bell fa-sm text-warning"></i>
+                </a>
             </div>
           
         </nav>
     </div id="top">
+
+    <!-- OFFCANVAS  -->
+    <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <form class="row g-3">
+                <div class="col-6">
+                  <label for="name" class="form-label">Nome</label>
+                  <input type="name" class="form-control" id="name">
+                </div>
+                <div class="col-6">
+                  <label for="surname" class="form-label">Cognome</label>
+                  <input type="surname" class="form-control" id="surname">
+                </div>
+                <div class="col-6">
+                    <label for="email-addres" class="form-label">Email</label>
+                    <div class="input-group">
+                        <span class="input-group-text" id="addon-wrapping">@</span>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password">
+                </div>
+                <div class="col-6">
+                    <label for="email-addres" class="form-label">Indirizzo email</label>
+                    <div class="input-group">
+                        <span class="input-group-text" id="addon-wrapping">@</span>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password">
+                </div>
+                <div class="col-12">
+                  <label for="addres" class="form-label">Indirizzo</label>
+                  <input type="text" class="form-control" id="addres" placeholder="1234 Main St">
+                </div>
+                <div class="col-6">
+                  <label for="city" class="form-label">City</label>
+                  <input type="text" class="form-control" id="city" placeholder="Roma, Roma or Roma..">
+                </div>
+                <div class="col-4">
+                  <label for="inputState" class="form-label">Stato</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="col-2">
+                  <label for="cap" class="form-label">CAP</label>
+                  <input type="text" class="form-control" id="cap">
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">Zip</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Default file input example</label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>  
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Seleziona per proseguire 
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Salva</button>
+                  <button type="submit" class="btn btn-warning">Svuota</button>
+                </div>
+                
+            </form>
+        </div>
+    </div>
 
   <!-- BOTTOM -->
     <div id="bottom">
