@@ -10,11 +10,8 @@
 </head>
 <body>
   <!-- TOP-->
-    <div id="top">
-        <div class="logo">
-            <img src="img/logo.svg" alt="logo">
-        </div>
-       
+    <div id="top" class="container-fluid d-flex">
+
     </div id="top">
 
   <!-- BOTTOM -->
@@ -45,58 +42,210 @@
             </header>
 
             <!-- MAIN  -->
-            <main>
+            <main class="bg-body-tertiary">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-8">
+
+                        <!-- COLONNA SINISTRA -->
+                        <div class="col-12 col-md-8 my-3">
                             <div class="content">
 
-                                <div class="card my-3">
-                                    <div class="card-header">
-                                      Featured
+                                <!-- PROSSIME CLASSI  -->
+                                <div class="card">
+                                    <div class="card-header fs-2">
+                                      Prossime classi
                                     </div>
-                                    <ul class="list-group list-group-flush">
-                                      <li class="list-group-item">An item</li>
-                                      <li class="list-group-item">A second item</li>
-                                      <li class="list-group-item">A third item</li>
-                                    </ul>
+                                    <div class="card-body">
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                  <td>Nome</td>
+                                                  <td class="d-none d-md-table-cell">Data inizio</td>
+                                                  <td class="d-none d-md-table-cell">ROI</td>
+                                                  <td>Stato</td>
+                                                  <td>Azioni</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <td><i class="fa-solid fa-code bg-warning bg-gradient p-1 rounded-circle"></i> Classe 75</td>
+                                                <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                                                <td class="d-none d-md-table-cell">20%</td>
+                                                <td><span class="bg-success p-1 rounded">Done</span></td>
+                                                <td>
+                                                    <i class="fa-solid fa-pen text-secondary fa-border border-2 border-secondary p-1"></i>
+                                                    <i class="fa-solid fa-trash text-secondary fa-border border-2 border-secondary p-1"></i>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td><i class="fa-solid fa-code bg-warning bg-gradient p-1 rounded-circle"></i> Classe 75</td>
+                                                <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                                                <td class="d-none d-md-table-cell">20%</td>
+                                                <td><span class="bg-success p-1 rounded">Done</span></td>
+                                                <td>
+                                                    <i class="fa-solid fa-pen text-secondary fa-border border-2 border-secondary p-1"></i>
+                                                    <i class="fa-solid fa-trash text-secondary fa-border border-2 border-secondary p-1"></i>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td><i class="fa-solid fa-code bg-warning bg-gradient p-1 rounded-circle"></i> Classe 75</td>
+                                                <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                                                <td class="d-none d-md-table-cell">20%</td>
+                                                <td><span class="bg-success p-1 rounded">Done</span></td>
+                                                <td>
+                                                    <i class="fa-solid fa-pen text-secondary fa-border border-2 border-secondary p-1"></i>
+                                                    <i class="fa-solid fa-trash text-secondary fa-border border-2 border-secondary p-1"></i>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td><i class="fa-solid fa-code bg-warning bg-gradient p-1 rounded-circle"></i> Classe 75</td>
+                                                <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                                                <td class="d-none d-md-table-cell">20%</td>
+                                                <td><span class="bg-success p-1 rounded">Done</span></td>
+                                                <td>
+                                                    <i class="fa-solid fa-pen text-secondary fa-border border-2 border-secondary p-1"></i>
+                                                    <i class="fa-solid fa-trash text-secondary fa-border border-2 border-secondary p-1"></i>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td><i class="fa-solid fa-code bg-warning bg-gradient p-1 rounded-circle"></i> Classe 75</td>
+                                                <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                                                <td class="d-none d-md-table-cell">20%</td>
+                                                <td><span class="bg-success p-1 rounded">Done</span></td>
+                                                <td>
+                                                    <i class="fa-solid fa-pen text-secondary fa-border border-2 border-secondary p-1"></i>
+                                                    <i class="fa-solid fa-trash text-secondary fa-border border-2 border-secondary p-1"></i>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td><i class="fa-solid fa-code bg-warning bg-gradient p-1 rounded-circle"></i> Classe 75</td>
+                                                <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                                                <td class="d-none d-md-table-cell">20%</td>
+                                                <td><span class="bg-success p-1 rounded">Done</span></td>
+                                                <td>
+                                                    <i class="fa-solid fa-pen text-secondary fa-border border-2 border-secondary p-1"></i>
+                                                    <i class="fa-solid fa-trash text-secondary fa-border border-2 border-secondary p-1"></i>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td><i class="fa-solid fa-code bg-warning bg-gradient p-1 rounded-circle"></i> Classe 75</td>
+                                                <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                                                <td class="d-none d-md-table-cell">20%</td>
+                                                <td><span class="bg-success p-1 rounded">Done</span></td>
+                                                <td>
+                                                    <i class="fa-solid fa-pen text-secondary fa-border border-2 border-secondary p-1"></i>
+                                                    <i class="fa-solid fa-trash text-secondary fa-border border-2 border-secondary p-1"></i>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td><i class="fa-solid fa-code bg-warning bg-gradient p-1 rounded-circle"></i> Classe 75</td>
+                                                <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                                                <td class="d-none d-md-table-cell">20%</td>
+                                                <td><span class="bg-success p-1 rounded">Done</span></td>
+                                                <td>
+                                                    <i class="fa-solid fa-pen text-secondary fa-border border-2 border-secondary p-1"></i>
+                                                    <i class="fa-solid fa-trash text-secondary fa-border border-2 border-secondary p-1"></i>
+                                                </td>
+                                              </tr>
+                                              
+                                            </tbody>
+                                        </table>
+                                        
+                                    </div>
                                 </div>
 
+                                <!-- FAQ -->
                                 <div class="card my-3">
-                                    <div class="card-header">
-                                      Featured
+                                    <div class="card-header fs-2">
+                                      F.A.Q.
                                     </div>
-                                    <ul class="list-group list-group-flush">
-                                      <li class="list-group-item">An item</li>
-                                      <li class="list-group-item">A second item</li>
-                                      <li class="list-group-item">A third item</li>
-                                    </ul>
+                                    <div class="card-body">
+                                        <div class="accordion" id="accordionExample">
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                  Come aggiungiere un nuovo studente?
+                                                </button>
+                                              </h2>
+                                              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                  Cliacca sull'icona della campanella. 
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                  Come posso accedere alle informazioni del mio account?
+                                                </button>
+                                              </h2>
+                                              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Clicca sull'icona della campanella.
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                  Posso usare questa dashboard da mobile
+                                                </button>
+                                              </h2>
+                                              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Clicca sull'icona della campanella.
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+
+                        <!-- COLONNA DESTRA -->
+                        <div class="col-12 col-md-4 my-3">
                             <div class="content">
 
-                                <div class="card my-3">
-                                    <div class="card-header">
-                                      Featured
+                                <!-- TODO  -->
+                                <div class="card">
+                                    <div class="card-header fs-2">
+                                     Todo
                                     </div>
                                     <div class="card-body">
-                                      <h5 class="card-title">Special title treatment</h5>
-                                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <ul class="list-group">
+                                            <li class="list-group-item">
+                                              <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckboxStretched">
+                                              <label class="form-check-label stretched-link" for="firstCheckboxStretched">Kickoff nuove classi</label>
+                                            </li>
+                                            <li class="list-group-item">
+                                              <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+                                              <label class="form-check-label stretched-link" for="secondCheckboxStretched">Lezione su Bootstrap 5 in classe n75</label>
+                                            </li>
+                                            <li class="list-group-item">
+                                              <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckboxStretched">
+                                              <label class="form-check-label stretched-link" for="thirdCheckboxStretched">Controllare username GitHub studenti</label>
+                                            </li>
+                                          </ul>
                                     </div>
                                 </div>
+
+                                <!-- GRAPHIC -->
                                 <div class="card my-3">
-                                    <div class="card-header">
-                                      Featured
-                                    </div>
+                                    <img src="img/stats.jpeg" class="card-img-top" alt="stats">
                                     <div class="card-body">
-                                      <h5 class="card-title">Special title treatment</h5>
-                                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                      <h5 class="card-title">Utenti attivi</h5>
+                                      <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
                                     </div>
-                                </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item">Gennaio: 1200</li>
+                                      <li class="list-group-item">Febbraio: 800</li>
+                                      <li class="list-group-item">Marzo: 1500</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link">Visualizza report approfondito</a>
+                                    </div>
+                                  </div>
                             </div>
                         </div>
                     </div>

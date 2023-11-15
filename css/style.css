@@ -21,14 +21,13 @@
 
 .side-bar{
     height: 100%;
-    width: 150px;
+    width: 100px;
     background-color: darkblue;
 }
 
 .main-bar{
     height: 100%;
-    width: calc(100vw - 150px);
-    background-color: gold;
+    width: calc(100vw - 100px);
     overflow-y: auto;
 }
 
@@ -38,6 +37,16 @@ header{
     height: 75px;
 }
 
+[alt~="logo"]{
+    width: 100%;
+}
+
+/* MAIN  */
+td:first-child{
+    width: 40%;
+}
+
+
 /* UTILITIES */
 
 .content-header{
@@ -45,7 +54,14 @@ header{
     background-color: red;
 }
 
-.content{
-    height: 600px;
-    background-color: blanchedalmond;
+
+@media screen and (max-width:768px){
+    .side-bar{
+        width: 40px;
+    }
+
+    .main-bar{
+        width: calc(100vw - 40px);
+    }
 }
+
